@@ -67,7 +67,7 @@ public class OpenFilePlusPlugin implements FlutterPlugin, MethodCallHandler, Act
         OpenFilePlusPlugin plugin = new OpenFilePlusPlugin();
         plugin.activity = registrar.activity();
         plugin.context = registrar.context();
-        plugin.channel = new MethodChannel(registrar.messenger(), "open_file");
+        plugin.channel = new MethodChannel(registrar.messenger(), "open_file_plus");
         plugin.channel.setMethodCallHandler(plugin);
         registrar.addRequestPermissionsResultListener(plugin);
         registrar.addActivityResultListener(plugin);

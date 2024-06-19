@@ -1,0 +1,5 @@
+-keep class com.joutvhu.openfile.** { *; }
+-keep class androidx.core.content.** { *; }
+-keep class android.content.res.** { *; }
+-keep class org.robolectric.** { *; }
+-keep class org.xmlpull.v1.** { *; }
